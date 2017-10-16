@@ -18,6 +18,10 @@ public class CountChars {
 
 
  Map<String, Integer> countedLetters = countLetters("da_vinci_code.txt");
+             public void countLetters("String"){
+                 for (int i = 0; i < ; i++) {
+                     
+                 }
  System.out.println("0 occured " + countedLetters.get("0") + " times in the file.");
  System.out.println("1 occured " + countedLetters.get("1") + " times in the file.");
  System.out.println("x occured " + countedLetters.get("x") + " times in the file.");

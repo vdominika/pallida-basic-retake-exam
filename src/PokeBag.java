@@ -1,5 +1,16 @@
+import java.util.Random;
+
 public class PokeBag {
     public static void main(String[] args) {
+
+        String name;
+        String language;
+        int HealthPoints;
+
+        Random rand = new Random();
+        int StrenghtPoints  = rand.nextInt(10) + 1;
+
+
         // Create a PokeBag class that can store multiple pokemons from different types. Add 5 pokemons to your PokeBag.
         // There are 3 kind of pomenons:
         // - Pikachu, who says “Pika-pika” and has 12 HP (health point)
@@ -21,5 +32,8 @@ public class PokeBag {
         //
         // Pokemon stongestPokemon = pokeBag.getStrongest();
         // Should return the pokemon with the highest strength value
+    }
+    public void Speak(){
+
     }
 }

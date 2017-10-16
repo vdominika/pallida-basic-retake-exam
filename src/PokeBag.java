@@ -1,32 +1,49 @@
+import javax.swing.*;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
-public class PokeBag {
+    public class PokeBag {
 
-    String name;
-    String language;
-    int HealthPoints;
+        String name;
+        String language;
+        int HealthPoints;
 
-    Random rand = new Random();
-    int StrenghtPoints  = rand.nextInt(10) + 1;
+        Random rand = new Random ( );
+        int StrenghtPoints = rand.nextInt (10) + 1;
 
-    public static void PokeBag (String name, String language, int HealthPoints, int StrenghtPoints){
-        
+         public void PokeBag(String name, String language, int HealthPoints, int StrenghtPoints) {
+         }
+
+        public static void main(String[] args) {
+
+            List pokeBag = new ArrayList ( );
+
+            pokeBag.add (new Pikachu ( ));
+            pokeBag.add (new Pikachu ( ));
+            pokeBag.add (new Pikachu ( ));
+            pokeBag.add (new BulbaSaur ( ));
+            pokeBag.add (new Charmander ( ));
+
+        speak();
+
+        strongestPokemon();
+
     }
 
-        // Pokemons can say their sound (see above) when their Speak method is called. The Speak method should return the pokemon’s sound.
-        // Create a function that returns the pokemon with the highest strength. In case of equal strengths, it’s your choice which one to return.
-        //
-        // Example:
-        // pokeBag.add(new Pikachu());
-        // pokeBag.add(new Pikachu());
-        // pokeBag.add(new Pikachu());
-        // pokeBag.add(new Bulbasaur());
-        // pokeBag.add(new Charmander());
-        //
-        // System.out.println(pokeBag.get(0).speak());
-        // This should print Pika-pika
-        //
-        // Pokemon stongestPokemon = pokeBag.getStrongest();
-        // Should return the pokemon with the highest strength value
+
+    public void speak() {
+        if (name = Pikachu) {
+            System.out.println ("Pika-pika");
+        } else if (name = BulbaSaur) {
+            System.out.println ("Bulba-saur");
+        } else if (name = Charmander) {
+            System.out.println ("Char-char");
+        }
+    }
+
+
+    public void strongestPokemon() {
+        return strongestPokemon ( );
     }
 }

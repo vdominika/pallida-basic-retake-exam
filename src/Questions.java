@@ -9,9 +9,9 @@
 //
 //        1. Statement
 //        2. Variable type
-//        3.
-//        4
-//        5
-//        6
-//        7
-//        8
+//        3. Variable type
+//        4  Variable type
+//        5  Unknown value
+//        6  Variable type (sum)
+//        7  For loop
+//        8  Return type

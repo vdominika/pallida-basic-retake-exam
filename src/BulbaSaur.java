@@ -1,8 +1,8 @@
 import java.util.Random;
 
-public class BubaSaur extends PokeBag {
+public class BulbaSaur extends PokeBag {
 
-    String name = "Bubasaur";
+    String name = "Bulbasaur";
     String language = "Bulba-saur";
     int HealthPoints = 10;
 }
